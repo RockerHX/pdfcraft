@@ -4,7 +4,7 @@
 
 Every asset PdfCraft includes, bundles or uses to build its published material, with its author, source and licence. The policy is in [AGENTS.md](AGENTS.md) §1. The machine-readable list, with the SHA-256 of every asset, is [ATTRIBUTION.toml](ATTRIBUTION.toml). Licence texts are kept beside the assets and summarised in [NOTICE](NOTICE).
 
-## In this repository (258)
+## In this repository (259)
 
 | Asset | Title | Author | Licence | Source | Used for |
 |---|---|---|---|---|---|
@@ -266,6 +266,7 @@ Every asset PdfCraft includes, bundles or uses to build its published material, 
 | `assets/icons/pilcrow.svg` | Lucide icon "pilcrow" | Lucide Contributors (portions Cole Bemis, Feather) | ISC AND MIT | https://github.com/lucide-icons/lucide (npm lucide-static 1.49.0, icons/pilcrow.svg) | UI icon, embedded via crates/ui-egui/src/icon_data.rs |
 | `assets/icons/a-large-small.svg` | Lucide icon "a-large-small" | Lucide Contributors (portions Cole Bemis, Feather) | ISC AND MIT | https://github.com/lucide-icons/lucide (npm lucide-static 1.49.0, icons/a-large-small.svg) | UI icon, embedded via crates/ui-egui/src/widgets/icon_data.rs |
 | `assets/icons/move-horizontal.svg` | Lucide icon "move-horizontal" | Lucide Contributors (portions Cole Bemis, Feather) | ISC AND MIT | https://github.com/lucide-icons/lucide (npm lucide-static 1.49.0, icons/move-horizontal.svg) | UI icon, embedded via crates/ui-egui/src/icon_data.rs |
+| `docs/images/pr-7185-chinese-add-text.png` | PdfCraft screenshot: Chinese Add Text before and after PR 7185 | RockerHX | MIT OR Apache-2.0 | https://github.com/RockerHX/pdfcraft/tree/303fc5ec9484fa85dea3dbdf57c443a6cfd923c7; baseline https://github.com/storytold/pdfcraft/tree/175992b5a2045d00cdf8a20f812ea4aac522b099; contributor-original egui_kittest captures | PR 7185 comparison of Add Text refusal and PDF save/reopen. Focused crops of PdfCraft with its contributor-original form.pdf fixture, Lucide icons and bundled open fonts only; runtime system fonts disabled. Captions use the existing OFL Inter face. Evidence branch only |
 
 ## Compiled in through dependencies (7)
 
